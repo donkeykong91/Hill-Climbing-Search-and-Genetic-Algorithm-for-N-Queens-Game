@@ -56,12 +56,12 @@ public class LocalSearch {
 		
 		for (int row = 0; row < board2D.length; row++) {
 			for (int col = 0; col < board2D[row].length; col++) {
-				board2D[row][col] = "*";
+				board2D[row][col] = "* ";
 			}
 		}
 		
 		for (int col = 0; col < board2D.length; col++) {
-			board2D[board[col]][col] = "Q";
+			board2D[board[col]][col] = "Q ";
 		}
 		
 		for(int row = 0; row < board2D.length; row++) {
